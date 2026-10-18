@@ -1,0 +1,42 @@
+{
+  "gaps": [
+    {"id": "ben:2026-03-04:missing_day", "severity": "block"},
+    {"id": "chi:2026-03-03:open_punch", "severity": "block"},
+    {"id": "dana:2026-03-05:short_day", "severity": "review"},
+    {"id": "eli:2026-03-06:overtime", "severity": "review"}
+  ],
+  "excluded": ["ben", "chi"],
+  "reminder_person_ids": ["ben", "chi"],
+  "payroll": {
+    "ana": {
+      "regular_hours": "40.00",
+      "overtime_hours": "0.00",
+      "pto_hours": "0.00",
+      "review_flags": ""
+    },
+    "dana": {
+      "regular_hours": "34.00",
+      "overtime_hours": "0.00",
+      "pto_hours": "0.00",
+      "review_flags": "short_day"
+    },
+    "eli": {
+      "regular_hours": "40.00",
+      "overtime_hours": "3.00",
+      "pto_hours": "0.00",
+      "review_flags": "overtime"
+    },
+    "fay": {
+      "regular_hours": "32.00",
+      "overtime_hours": "0.00",
+      "pto_hours": "8.00",
+      "review_flags": ""
+    },
+    "gus": {
+      "regular_hours": "37.50",
+      "overtime_hours": "0.00",
+      "pto_hours": "0.00",
+      "review_flags": ""
+    }
+  }
+}

@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 720" width="860" height="720" role="img" aria-labelledby="title desc">
+  <title id="title">Timecard Curator workflow</title>
+  <desc id="desc">Monday run. Time sources feed the roster, the gap step writes facts, the curator is the only reasoning step, and the gate must pass before reminders, the manager file, or payroll are written. Recorded hours skip the model and go straight to payroll.</desc>
+  <rect width="860" height="720" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#3f3f46"/>
+    </marker>
+    <marker id="arrow-muted" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#a1a1aa"/>
+    </marker>
+    <marker id="arrow-accent" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#1d4ed8"/>
+    </marker>
+  </defs>
+
+  <style>
+    text { font-family: system-ui, sans-serif; }
+    .title { font-size: 13px; font-weight: 590; }
+    .sub { font-size: 11px; }
+  </style>
+
+  <!-- edges, drawn under the boxes -->
+  <path d="M 187 64 V 82 H 430 V 100" fill="none" stroke="#3f3f46" stroke-width="1.25" marker-end="url(#arrow)"/>
+  <path d="M 349 64 V 82 H 430 V 100" fill="none" stroke="#3f3f46" stroke-width="1.25" marker-end="url(#arrow)"/>
+  <path d="M 511 64 V 82 H 430 V 100" fill="none" stroke="#3f3f46" stroke-width="1.25" marker-end="url(#arrow)"/>
+  <path d="M 673 64 V 82 H 430 V 100" fill="none" stroke="#3f3f46" stroke-width="1.25" marker-end="url(#arrow)"/>
+  <path d="M 430 162 V 198" fill="none" stroke="#3f3f46" stroke-width="1.25" marker-end="url(#arrow)"/>
+  <path d="M 430 266 V 302" fill="none" stroke="#3f3f46" stroke-width="1.25" marker-end="url(#arrow)"/>
+  <path d="M 430 380 V 414" fill="none" stroke="#3f3f46" stroke-width="1.25" marker-end="url(#arrow)"/>
+  <path d="M 430 464 V 500 H 139 V 536" fill="none" stroke="#a1a1aa" stroke-width="1.25" marker-end="url(#arrow-muted)"/>
+  <path d="M 430 464 V 500 H 333 V 536" fill="none" stroke="#3f3f46" stroke-width="1.25" marker-end="url(#arrow)"/>
+  <path d="M 430 464 V 500 H 527 V 536" fill="none" stroke="#3f3f46" stroke-width="1.25" marker-end="url(#arrow)"/>
+  <path d="M 430 464 V 500 H 721 V 536" fill="none" stroke="#3f3f46" stroke-width="1.25" marker-end="url(#arrow)"/>
+  <path d="M 540 232 H 846 V 536 H 810" fill="none" stroke="#1d4ed8" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrow-accent)"/>
+  <text class="sub" fill="#71717a" text-anchor="middle" transform="rotate(-90 830 390)" x="830" y="390">recorded hours</text>
+
+  <!-- sources -->
+  <g>
+    <rect x="112" y="16" width="150" height="48" rx="8" fill="#fafafa" stroke="#d4d4d8"/>
+    <text class="title" x="187" y="34" text-anchor="middle" fill="#18181b">Jibble</text>
+    <text class="sub" x="187" y="52" text-anchor="middle" fill="#52525b">free account</text>
+  </g>
+  <g>
+    <rect x="274" y="16" width="150" height="48" rx="8" fill="#fafafa" stroke="#d4d4d8"/>
+    <text class="title" x="349" y="34" text-anchor="middle" fill="#18181b">Kimai</text>
+    <text class="sub" x="349" y="52" text-anchor="middle" fill="#52525b">open source</text>
+  </g>
+  <g>
+    <rect x="436" y="16" width="150" height="48" rx="8" fill="#fafafa" stroke="#d4d4d8"/>
+    <text class="title" x="511" y="34" text-anchor="middle" fill="#18181b">File</text>
+    <text class="sub" x="511" y="52" text-anchor="middle" fill="#52525b">sample week</text>
+  </g>
+  <g>
+    <rect x="598" y="16" width="150" height="48" rx="8" fill="#fafafa" stroke="#d4d4d8"/>
+    <text class="title" x="673" y="34" text-anchor="middle" fill="#18181b">HTTP hook</text>
+    <text class="sub" x="673" y="52" text-anchor="middle" fill="#52525b">any system</text>
+  </g>
+
+  <!-- spine -->
+  <g>
+    <rect x="320" y="100" width="220" height="62" rx="8" fill="#f4f4f5" stroke="#a1a1aa"/>
+    <text class="title" x="430" y="125" text-anchor="middle" fill="#18181b">1  Roster</text>
+    <text class="sub" x="430" y="143" text-anchor="middle" fill="#52525b">who should work</text>
+  </g>
+  <g>
+    <rect x="320" y="198" width="220" height="68" rx="8" fill="#f4f4f5" stroke="#a1a1aa"/>
+    <text class="title" x="430" y="226" text-anchor="middle" fill="#18181b">2  Gaps</text>
+    <text class="sub" x="430" y="244" text-anchor="middle" fill="#52525b">facts only</text>
+  </g>
+  <g>
+    <rect x="320" y="302" width="220" height="78" rx="8" fill="#1d4ed8" stroke="#1d4ed8"/>
+    <text class="title" x="430" y="335" text-anchor="middle" fill="#ffffff">3  Curator</text>
+    <text class="sub" x="430" y="353" text-anchor="middle" fill="#ffffff">the only model call</text>
+  </g>
+  <g>
+    <rect x="346" y="414" width="168" height="50" rx="8" fill="#e4e4e7" stroke="#a1a1aa"/>
+    <text class="title" x="430" y="435" text-anchor="middle" fill="#18181b">4  Gate</text>
+    <text class="sub" x="430" y="453" text-anchor="middle" fill="#52525b">allows or stops</text>
+  </g>
+
+  <!-- outcomes -->
+  <g>
+    <rect x="50" y="536" width="178" height="76" rx="8" fill="#fafafa" stroke="#d4d4d8"/>
+    <text class="title" x="139" y="568" text-anchor="middle" fill="#18181b">Stop</text>
+    <text class="sub" x="139" y="586" text-anchor="middle" fill="#52525b">nothing is sent</text>
+  </g>
+  <g>
+    <rect x="244" y="536" width="178" height="76" rx="8" fill="#f4f4f5" stroke="#a1a1aa"/>
+    <text class="title" x="333" y="568" text-anchor="middle" fill="#18181b">5  Reminders</text>
+    <text class="sub" x="333" y="586" text-anchor="middle" fill="#52525b">file, Slack, or email</text>
+  </g>
+  <g>
+    <rect x="438" y="536" width="178" height="76" rx="8" fill="#f4f4f5" stroke="#a1a1aa"/>
+    <text class="title" x="527" y="568" text-anchor="middle" fill="#18181b">Manager file</text>
+    <text class="sub" x="527" y="586" text-anchor="middle" fill="#52525b">from the facts</text>
+  </g>
+  <g>
+    <rect x="632" y="536" width="178" height="76" rx="8" fill="#f4f4f5" stroke="#a1a1aa"/>
+    <text class="title" x="721" y="568" text-anchor="middle" fill="#18181b">6  Payroll</text>
+    <text class="sub" x="721" y="586" text-anchor="middle" fill="#52525b">CSV or webhook</text>
+  </g>
+
+  <!-- legend -->
+  <rect x="48" y="652" width="28" height="14" rx="3" fill="#fafafa" stroke="#d4d4d8"/>
+  <text class="sub" x="84" y="663" fill="#3f3f46">Source or stop</text>
+  <rect x="230" y="652" width="28" height="14" rx="3" fill="#f4f4f5" stroke="#a1a1aa"/>
+  <text class="sub" x="266" y="663" fill="#3f3f46">Action step</text>
+  <rect x="420" y="652" width="28" height="14" rx="3" fill="#1d4ed8" stroke="#1d4ed8"/>
+  <text class="sub" x="456" y="663" fill="#3f3f46">Reasoning</text>
+  <line x1="590" y1="659" x2="622" y2="659" stroke="#1d4ed8" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <text class="sub" x="630" y="663" fill="#3f3f46">Hours skip the model</text>
+</svg>

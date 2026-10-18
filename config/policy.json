@@ -1,0 +1,10 @@
+{
+  "workdays": ["mon", "tue", "wed", "thu", "fri"],
+  "default_expected_minutes": 480,
+  "short_day_below_ratio": 0.75,
+  "overtime_grace_minutes": 60,
+  "blocking_kinds": ["missing_day", "open_punch"],
+  "partial_payroll": true,
+  "reminder_tone": "State the date and what is missing. No blame, no threats.",
+  "max_shift_hours": 16
+}

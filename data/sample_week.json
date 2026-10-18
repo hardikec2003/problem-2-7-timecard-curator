@@ -1,0 +1,260 @@
+{
+  "note": "Fictional week of 2-6 Mar 2026. Fay is on PTO Wednesday. Gus works 7.5h days, which is under 8h but not under the 75% short-day line. Ana also has a Saturday entry that is outside the period and must be ignored.",
+  "period": {
+    "start": "2026-03-02",
+    "end": "2026-03-06"
+  },
+  "people": [
+    {
+      "id": "ana",
+      "name": "Ana Ruiz",
+      "email": "ana@example.com",
+      "manager_email": "lead@example.com"
+    },
+    {
+      "id": "ben",
+      "name": "Ben Cole",
+      "email": "ben@example.com",
+      "manager_email": "lead@example.com"
+    },
+    {
+      "id": "chi",
+      "name": "Chi Okonkwo",
+      "email": "chi@example.com",
+      "manager_email": "lead@example.com"
+    },
+    {
+      "id": "dana",
+      "name": "Dana Singh",
+      "email": "dana@example.com",
+      "manager_email": "lead@example.com"
+    },
+    {
+      "id": "eli",
+      "name": "Eli Park",
+      "email": "eli@example.com",
+      "manager_email": "lead@example.com"
+    },
+    {
+      "id": "fay",
+      "name": "Fay Nguyen",
+      "email": "fay@example.com",
+      "manager_email": "lead@example.com",
+      "pto_days": [
+        "2026-03-04"
+      ]
+    },
+    {
+      "id": "gus",
+      "name": "Gus Hale",
+      "email": "gus@example.com",
+      "manager_email": "lead@example.com"
+    }
+  ],
+  "entries": [
+    {
+      "person_id": "ana",
+      "id": "ana-2026-03-02",
+      "start": "2026-03-02T09:00:00",
+      "end": "2026-03-02T17:00:00"
+    },
+    {
+      "person_id": "gus",
+      "id": "gus-2026-03-02",
+      "start": "2026-03-02T09:00:00",
+      "end": "2026-03-02T16:30:00"
+    },
+    {
+      "person_id": "ben",
+      "id": "ben-2026-03-02",
+      "start": "2026-03-02T09:00:00",
+      "end": "2026-03-02T17:00:00"
+    },
+    {
+      "person_id": "fay",
+      "id": "fay-2026-03-02",
+      "start": "2026-03-02T09:00:00",
+      "end": "2026-03-02T17:00:00"
+    },
+    {
+      "person_id": "chi",
+      "id": "chi-2026-03-02",
+      "start": "2026-03-02T09:00:00",
+      "end": "2026-03-02T17:00:00"
+    },
+    {
+      "person_id": "dana",
+      "id": "dana-2026-03-02",
+      "start": "2026-03-02T09:00:00",
+      "end": "2026-03-02T17:00:00"
+    },
+    {
+      "person_id": "eli",
+      "id": "eli-2026-03-02",
+      "start": "2026-03-02T09:00:00",
+      "end": "2026-03-02T17:00:00"
+    },
+    {
+      "person_id": "ana",
+      "id": "ana-2026-03-03",
+      "start": "2026-03-03T09:00:00",
+      "end": "2026-03-03T17:00:00"
+    },
+    {
+      "person_id": "gus",
+      "id": "gus-2026-03-03",
+      "start": "2026-03-03T09:00:00",
+      "end": "2026-03-03T16:30:00"
+    },
+    {
+      "person_id": "ben",
+      "id": "ben-2026-03-03",
+      "start": "2026-03-03T09:00:00",
+      "end": "2026-03-03T17:00:00"
+    },
+    {
+      "person_id": "fay",
+      "id": "fay-2026-03-03",
+      "start": "2026-03-03T09:00:00",
+      "end": "2026-03-03T17:00:00"
+    },
+    {
+      "person_id": "chi",
+      "id": "chi-2026-03-03",
+      "start": "2026-03-03T09:00:00",
+      "end": null
+    },
+    {
+      "person_id": "dana",
+      "id": "dana-2026-03-03",
+      "start": "2026-03-03T09:00:00",
+      "end": "2026-03-03T17:00:00"
+    },
+    {
+      "person_id": "eli",
+      "id": "eli-2026-03-03",
+      "start": "2026-03-03T09:00:00",
+      "end": "2026-03-03T17:00:00"
+    },
+    {
+      "person_id": "ana",
+      "id": "ana-2026-03-04",
+      "start": "2026-03-04T09:00:00",
+      "end": "2026-03-04T17:00:00"
+    },
+    {
+      "person_id": "gus",
+      "id": "gus-2026-03-04",
+      "start": "2026-03-04T09:00:00",
+      "end": "2026-03-04T16:30:00"
+    },
+    {
+      "person_id": "chi",
+      "id": "chi-2026-03-04",
+      "start": "2026-03-04T09:00:00",
+      "end": "2026-03-04T17:00:00"
+    },
+    {
+      "person_id": "dana",
+      "id": "dana-2026-03-04",
+      "start": "2026-03-04T09:00:00",
+      "end": "2026-03-04T17:00:00"
+    },
+    {
+      "person_id": "eli",
+      "id": "eli-2026-03-04",
+      "start": "2026-03-04T09:00:00",
+      "end": "2026-03-04T17:00:00"
+    },
+    {
+      "person_id": "ana",
+      "id": "ana-2026-03-05",
+      "start": "2026-03-05T09:00:00",
+      "end": "2026-03-05T17:00:00"
+    },
+    {
+      "person_id": "gus",
+      "id": "gus-2026-03-05",
+      "start": "2026-03-05T09:00:00",
+      "end": "2026-03-05T16:30:00"
+    },
+    {
+      "person_id": "ben",
+      "id": "ben-2026-03-05",
+      "start": "2026-03-05T09:00:00",
+      "end": "2026-03-05T17:00:00"
+    },
+    {
+      "person_id": "fay",
+      "id": "fay-2026-03-05",
+      "start": "2026-03-05T09:00:00",
+      "end": "2026-03-05T17:00:00"
+    },
+    {
+      "person_id": "chi",
+      "id": "chi-2026-03-05",
+      "start": "2026-03-05T09:00:00",
+      "end": "2026-03-05T17:00:00"
+    },
+    {
+      "person_id": "dana",
+      "id": "dana-2026-03-05",
+      "start": "2026-03-05T09:00:00",
+      "end": "2026-03-05T11:00:00"
+    },
+    {
+      "person_id": "eli",
+      "id": "eli-2026-03-05",
+      "start": "2026-03-05T09:00:00",
+      "end": "2026-03-05T17:00:00"
+    },
+    {
+      "person_id": "ana",
+      "id": "ana-2026-03-06",
+      "start": "2026-03-06T09:00:00",
+      "end": "2026-03-06T17:00:00"
+    },
+    {
+      "person_id": "gus",
+      "id": "gus-2026-03-06",
+      "start": "2026-03-06T09:00:00",
+      "end": "2026-03-06T16:30:00"
+    },
+    {
+      "person_id": "ben",
+      "id": "ben-2026-03-06",
+      "start": "2026-03-06T09:00:00",
+      "end": "2026-03-06T17:00:00"
+    },
+    {
+      "person_id": "fay",
+      "id": "fay-2026-03-06",
+      "start": "2026-03-06T09:00:00",
+      "end": "2026-03-06T17:00:00"
+    },
+    {
+      "person_id": "chi",
+      "id": "chi-2026-03-06",
+      "start": "2026-03-06T09:00:00",
+      "end": "2026-03-06T17:00:00"
+    },
+    {
+      "person_id": "dana",
+      "id": "dana-2026-03-06",
+      "start": "2026-03-06T09:00:00",
+      "end": "2026-03-06T17:00:00"
+    },
+    {
+      "person_id": "eli",
+      "id": "eli-2026-03-06",
+      "start": "2026-03-06T08:00:00",
+      "end": "2026-03-06T19:00:00"
+    },
+    {
+      "person_id": "ana",
+      "id": "ana-2026-03-07-ignore",
+      "start": "2026-03-07T10:00:00",
+      "end": "2026-03-07T14:00:00"
+    }
+  ]
+}

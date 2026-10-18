@@ -1,0 +1,5 @@
+{
+  "note": "Optional overrides when the time source is Jibble, Kimai, or the HTTP hook. The sample week carries its own roster. Match people by email or by id.",
+  "manager_email": "",
+  "people": {}
+}

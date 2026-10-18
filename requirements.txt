@@ -1,0 +1,2 @@
+# No third-party packages. The standard library is enough,
+# which keeps the install small and the supply chain short.

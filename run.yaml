@@ -1,0 +1,22 @@
+# Fill this in before you submit -- our evaluator runs these commands
+# EXACTLY as written, in this order, from a fresh checkout of your fork.
+# Keep every command non-interactive (no prompts) and idempotent.
+
+setup_commands:
+  - "pip install -r requirements.txt"
+
+run_commands:
+  - "python src/main.py --help"
+  - "python src/main.py run --reasoner local --out out/demo"
+
+test_commands:
+  - "python -m unittest discover -s tests -v"
+  - "python src/main.py eval --out out/eval"
+
+notes: >
+  Offline. The commands above use data/sample_week.json and do not need
+  API keys or the network. CLAUDE_KEY is optional. When you set it,
+  --reasoner claude runs `claude -p` and passes the key as
+  CLAUDE_CODE_OAUTH_TOKEN. That key is not an Anthropic API key.
+  Live time tracking: a free Jibble account, or open-source Kimai.
+  See docs/README.md.
